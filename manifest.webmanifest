@@ -1,7 +1,4 @@
 {
-  "name": "Kampong",
-  "short_name": "Kampong",
-  "description": "Kampong: say what it does in one line.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
@@ -21,5 +18,8 @@
       "type": "image/png",
       "purpose": "any"
     }
-  ]
+  ],
+  "name": "Kampong",
+  "short_name": "Kampong",
+  "description": "Kampong: the village app for family and friends. Plant a seed for what you would love, and watch it grow."
 }
