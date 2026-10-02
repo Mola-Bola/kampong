@@ -853,10 +853,10 @@ __d(function (global, require, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, expor
   module.exports = Object.assign({
     "tabText": "n4ArtG_tabText",
     "tabBadge": "n4ArtG_tabBadge",
-    "navigationMenuRoot": "n4ArtG_navigationMenuRoot",
     "tabContent": "n4ArtG_tabContent",
-    "navigationMenuTrigger": "n4ArtG_navigationMenuTrigger",
     "emptyTabBadge": "n4ArtG_emptyTabBadge",
+    "navigationMenuTrigger": "n4ArtG_navigationMenuTrigger",
+    "navigationMenuRoot": "n4ArtG_navigationMenuRoot",
     "nativeTabsContainer": "n4ArtG_nativeTabsContainer"
   }, {
     unstable_styles: {
@@ -868,21 +868,21 @@ __d(function (global, require, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, expor
         "$$css": true,
         "_": "n4ArtG_tabBadge"
       },
-      "navigationMenuRoot": {
-        "$$css": true,
-        "_": "n4ArtG_navigationMenuRoot"
-      },
       "tabContent": {
         "$$css": true,
         "_": "n4ArtG_tabContent"
+      },
+      "emptyTabBadge": {
+        "$$css": true,
+        "_": "n4ArtG_emptyTabBadge"
       },
       "navigationMenuTrigger": {
         "$$css": true,
         "_": "n4ArtG_navigationMenuTrigger"
       },
-      "emptyTabBadge": {
+      "navigationMenuRoot": {
         "$$css": true,
-        "_": "n4ArtG_emptyTabBadge"
+        "_": "n4ArtG_navigationMenuRoot"
       },
       "nativeTabsContainer": {
         "$$css": true,
