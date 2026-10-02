@@ -43,6 +43,7 @@
     <li><b>Supabase</b> stores accounts and app data (servers in Sydney, Australia).</li>
     <li><b>Google</b> for "Continue with Google" sign-in. <b>Firebase</b> (Google) delivers app installs to testers and notifications.</li>
     <li><b>GitHub</b> hosts the web apps' files (no personal data). <b>PostHog</b> (EU) counts anonymous app usage for Kampong and Oleh only.</li>
+    <li>Those usage counts reach PostHog through a small relay we run on <b>Cloudflare</b>. It stores nothing and removes your IP address before passing them on, so PostHog never sees it.</li>
   </ul>
 
   <h2>Your choices</h2>
